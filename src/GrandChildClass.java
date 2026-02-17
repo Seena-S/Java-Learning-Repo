@@ -5,7 +5,7 @@ public class GrandChildClass extends ChildClassOne{
     }
 
     public static void main(String[] args){
-        ChildClassOne child1 = new ChildClassOne("Kaviraj");
+        ChildClassOne child1 = new ChildClassOne("Abraham Thankachan");
         System.out.println("Grandparent name: "+child1.name);
 
         child1.whoami();
